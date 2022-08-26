@@ -1,0 +1,33 @@
+{
+	"name": "www.serverless-toolkit.com",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "playwright test",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"destroy": "destroy"
+	},
+	"devDependencies": {
+		"@picocss/pico": "1.5.3",
+		"@playwright/test": "1.25.1",
+		"@sveltejs/kit": "next",
+		"prettier": "2.7.1",
+		"prettier-plugin-svelte": "2.7.0",
+		"remixicon": "2.5.0",
+		"svelte": "3.49.0",
+		"mdsvex": "0.10.6",
+		"svelte-check": "2.8.1",
+		"svelte-preprocess": "4.10.7",
+		"sveltekit-adapter-aws": "4.2.6",
+		"tslib": "2.4.0",
+		"typescript": "4.8.2",
+		"vite": "3.0.9"
+	},
+	"type": "module"
+}
