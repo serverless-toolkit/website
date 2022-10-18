@@ -30,12 +30,6 @@ After selecting one of the templates or importing one of the example projects, S
 behalf and prompts you to start building by cloning the code to your local. Just follow the instructions provided on 
 Serverless Dashboard to clone to code to your local and instantiate Cloud Shell integrated with your personal sandbox.
 
-> Note that this operation may fail with "npm install exited with code 1" error. In such cases,
-
-Get into the directory named same as app by running cd `<appName>``
-Run `npm i`` to install dependencies yourself
-Type `stk` to start working on your project.
-
 ### Start from CLI (coming soon)
 
 Serverless Dashboard provides you with a rich set of templates that you can use for developing against your personal sandbox.
