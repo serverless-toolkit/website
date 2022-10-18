@@ -1,3 +1,55 @@
 ## Concepts
 
-...
+Serverless Dashboard introduces a new way to develop applications against Cloud by collaborating with your colleagues. 
+In this page, we'll briefly mention the concepts around Serverless Dashboard.
+
+### Apps and Instances
+
+Serverless Dashboard allows you to build APPS within your team's ORGANIZATION. You can create as many apps as you want 
+for different use cases or applications. An app can have multiple instances and each instance is completely separate 
+from all the other instances in an app, and even store their own copy of your data and blob storage. The first instance 
+that you start to use immediately is your developer sandbox that syncs your changes to cloud as you code. There are also 
+different type of instances like preview instances, test instances and stages. See here for more information.
+
+### Serverless Dashboard
+Serverless Dashboard lets developers manage their apps and instances, create/edit params, monitor apps, make their apps forkable, 
+and manage their developer and organizational profiles.
+
+### CLI
+The Serverless Dashboard CLI is a command-line interface (CLI) that provides a simple, unified interface to Serverless Dashboard. 
+Note that our CLI requires Node.js v14 and higher. Check your node version by running node -v from your terminal. 
+The Serverless Dashboard CLI has several modes to optimize experience in different situations:
+
+#### Interactive Mode (a.k.a. Cloud Shell) 
+allows developers to connect to their Developer Sandbox from their local IDE, auto sync code changes, stream logs, 
+and run common commands to manage their development workflow. This also integrates with the frontend frameworks 
+such as React, Vue, SvelteKit and more natively. When used in conjunction with such frameworks, deploy and share 
+commands are running the build scripts of frontend frameworks and deploys them as a bundle with Serverless Dashboard. 
+This mode is enabled when you type cloud from your terminal.
+
+#### Standard Mode 
+allows developers to run specific commands to manage apps and workflows on Serverless Dashboard. You should be logged 
+in to CLI by running cloud login to use standard mode.
+
+#### Headless Mode 
+is used to manage the CI/CD operations on Serverless Dashboard with an Access Token received from Cloud Dashboard.
+See [here]() for more information.
+
+### Serverless Dashboard Params/Secrets
+Serverless Dashboard lets you define parameters/secrets to inject on your application on runtime. Parameters can be defined 
+on Serverless Dashboard Dashboard for organization or app level and can be overriden for specific instance. For example; 
+you can define your development STRIPE_TOKEN app-wide and override it with a production value for your production stage. 
+You can use params interface to read params params programmatically from your application.
+
+### Limits
+Serverless Dashboard poses some limits to protect our system and provide great experience for all of our users. 
+Several Serverless Dashboard services enforce different limits that we'll provide below:
+
+#### General Limits
+
+- You can define 10 instances in an org. Please contact us if you want to increase this limit.
+- The total code size of the application can't exceed 500MB in developer sandbox. This limit is 128MB for permanent stages.
+- All your tests can run no longer than 5 minutes in test stages.
+- The total size of all parameters on every instance can't exceed 3KBs.
+- Development session for Serverless Dashboard can take at most an hour. After an hour, you'll need to quit and restart 
+the Cloud Shell by typing cloud.

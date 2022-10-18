@@ -1,40 +1,54 @@
 ## Quick start
 
-The "cloud" is immensely powerful, but also complex and filled with lots of moving parts. 
-Developers are now wearing more hats than ever before, not only building and designing software, 
-but also becoming cloud architects that need to understand countless cloud services, scalable data engines, 
-distributed systems, and so much more.
+We believe in boosting developer productivity more than anything and it literally takes around a minute to get up and 
+running with a full-stack application running on your personal sandbox with Serverless Dashboard.
 
-### Write code, not configuration
-The Serverless Dashboard lets you manage scalable, highly-secure, pay-per-use applications without needing a deep knowledge 
-of all the cloud services. We reduce all of this complexity by interpreting your code and automatically provisioning the best 
-possible infrastructure to support it. We also apply best practices to common use cases, removing the need for all that 
-boilerplate and configuration, and allowing developers to do what they do best: build software.
+There are two different ways of getting started with Serverless Dashboard and both end up with a development 
+environment that streams the logs to your terminal. 
+When you’re ready to share your world, it takes some minutes to deploy your application to a fully scalable 
+permanent stage that is performance-optimized.
 
-### How it works
-Serverless uses a combination of our CLI, SDK (Serverless Development Kit), and Cloud Dashboard to easily build, 
-deploy, and monitor your applications.
+Here are the ways to get started with Serverless Dashboard. These are:
 
-Our lightweight CLI watches your local project directory and instantaneously syncs and deploys changes to your own 
-fully-isolated developer sandbox in the cloud. This high-fidelity cloud environment lets you test and debug your code, 
-all at the blazing fast speed of local development. The CLI also enables powerful workflows like generating preview builds 
-to share with collaborators, running unit and integration test, and even deploying to production with a single command.
+- Start from Dashboard
+- Start from CLI (coming soon)
 
-Writing application code with Serverless Dashboard is fast and familiar. Use our intuitive Serverless Development Kit (SDK) 
-to access your datastore, schedule tasks, load secrets, process events, serve static assets, and more. No configuration and 
-no YAML -- just write code and Serverless Dashboard will do the rest. You can even BYOF (Bring Your Own Framework) and use 
-Express.js to quickly build massively scalable, globally distributed backend APIs.
+### Start from Dashboard
 
-The Serverless Dashboard centralizes control, monitoring, and management of your applications. Automatically discover 
-deployed routes and test them with our web-based Interact tool, access logs and metrics to monitor and troubleshoot applications, 
-review and edit data with the Data Manager, upload and control files with Storage Manager, and manage settings like secrets, 
-access control, and more. Everything you need to build and manage amazing serverless applications, all in one place.
+After you sign up to Serverless Cloud, you’ll be navigated to the template selection screen after naming your organization 
+and providing some information about yourself.
 
-Sound interesting? Learn how to Get Started now!
+Here you can select one of our ready templates visually or you can import an existing Serverless Dashboard project from Github. 
+See some of the template projects you can import from Github:
 
-## Feedback
-Serverless Dashbboard is in Public Preview and we're working to continuously improve the exprience. If you encounter any 
-issues or would like to submit feature requests, please add them to our GitHub Issues page.
+- Static S3 Website
+- Lambda with URL 
 
-To connect with other Serverless Dashboard users and get additional support, please join our Slack community. Additional 
-inquiries and requests can be sent to cloud@serverless-toolkit.com.
+You can see more example projects [here]().
+
+After selecting one of the templates or importing one of the example projects, Serverless Dashboard creates a new app on your 
+behalf and prompts you to start building by cloning the code to your local. Just follow the instructions provided on 
+Serverless Dashboard to clone to code to your local and instantiate Cloud Shell integrated with your personal sandbox.
+
+> Note that this operation may fail with "npm install exited with code 1" error. In such cases,
+
+Get into the directory named same as app by running cd `<appName>``
+Run `npm i`` to install dependencies yourself
+Type `stk` to start working on your project.
+
+### Start from CLI (coming soon)
+
+Serverless Dashboard provides you with a rich set of templates that you can use for developing against your personal sandbox.
+Just make sure you are navigated into an empty folder in your Terminal and you have npm installed.
+All you need to do is to run the following command to start with Serverless Dashboard.
+
+You’ll find yourself in Cloud Shell and you'll be prompted to login to Serverless Dashboard (you can always log out by running 
+cloud logout from your Terminal). Then, you’ll see the templates that you can use to build your next project with 
+Serverless Dashboard. You can either build a full-stack application powered by known frameworks such as React, Vue, SvelteKit, 
+Next.js, and more or you can build a backend using our SDK. Either in JS or TS.
+
+After selecting your template, Serverless Dashboard spins off your personal sandbox in less than 30 seconds. 
+All your logs will be streamed into this CLI, all your changes will be synced to your personal sandbox almost immediately. 
+
+Happy coding!
+
