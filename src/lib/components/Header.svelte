@@ -7,6 +7,13 @@
 		</ul>
 		<ul>
 			<li><a href="/docs">docs</a></li>
+			<li>
+				<a
+					href="https://cloud.serverless-toolkit.com/auth/signin"
+					target="_blank"
+					rel="noopener noreferrer">login</a
+				>
+			</li>
 			<!-- <li>
 			<details role="list" dir="rtl">
 				<summary aria-haspopup="listbox" role="link" class="contrast" />
