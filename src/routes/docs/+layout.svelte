@@ -2,14 +2,14 @@
 	<div class="col-3">
 		<aside>
 			<nav>
-				<details>
+				<details open>
 					<summary>Get started</summary>
 					<ul>
-						<li><a href="/" class="contrast">Quick start</a></li>
-						<li><a href="/" class="contrast">Concepts</a></li>
+						<li><a href="/docs/get-started/quick-start" class="contrast">Quick start</a></li>
+						<li><a href="/docs/get-started/concepts" class="contrast">Concepts</a></li>
 					</ul>
 				</details>
-				<details>
+				<details open>
 					<summary>Building Applications</summary>
 					<ul>
 						<li><a href="/" class="contrast">Overview</a></li>
@@ -56,7 +56,13 @@
 			</nav>
 		</aside>
 	</div>
-	<div class="col-9">
-		<h2>Docs</h2>
+	<div class="col-9 document">
+		<slot />
 	</div>
 </div>
+
+<style>
+	.document {
+		padding-left: 2rem;
+	}
+</style>
