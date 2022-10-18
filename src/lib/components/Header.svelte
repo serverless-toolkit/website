@@ -1,20 +1,23 @@
-<nav class="container-fluid sticky">
-	<ul>
-		<li>
-			<a href="/" class="contrast"><strong>STK</strong></a>
-		</li>
-	</ul>
-	<!-- <ul>
-		<li>
+<header class="container">
+	<nav class="sticky">
+		<ul>
+			<li>
+				<a href="/" class="contrast"><strong>STK</strong></a>
+			</li>
+		</ul>
+		<ul>
+			<li><a href="/docs">docs</a></li>
+			<!-- <li>
 			<details role="list" dir="rtl">
 				<summary aria-haspopup="listbox" role="link" class="contrast" />
 				<ul role="listbox">
 					<li><a href="/contact">contact</a></li>
 				</ul>
 			</details>
-		</li>
-	</ul> -->
-</nav>
+		</li> -->
+		</ul>
+	</nav>
+</header>
 
 <style>
 	.sticky {
