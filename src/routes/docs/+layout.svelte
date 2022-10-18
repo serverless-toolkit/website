@@ -12,45 +12,45 @@
 				<details open>
 					<summary>Building Applications</summary>
 					<ul>
-						<li><a href="/" class="contrast">Overview</a></li>
-						<li><a href="/" class="contrast">Blueprints</a></li>
-						<li><a href="/" class="contrast">Apps and Instances</a></li>
-						<li><a href="/" class="contrast">Parameters</a></li>
+						<li><a href="/docs/building-applications/overview" class="contrast">Overview</a></li>
+						<li><a href="/docs/building-applications/blueprints" class="contrast">Blueprints</a></li>
+						<li><a href="/docs/building-applications/apps-and-instances" class="contrast">Apps and Instances</a></li>
+						<li><a href="/docs/building-applications/parameters" class="contrast">Parameters</a></li>
 					</ul>
 				</details>
 				<details>
-					<summary>Web Dashboard</summary>
+					<summary>Dashboard</summary>
 					<ul>
-						<li><a href="/" class="contrast">Overview</a></li>
-						<li><a href="/" class="contrast">Managing Apps</a></li>
-						<li><a href="/" class="contrast">Managing Instances</a></li>
-						<li><a href="/" class="contrast">Metrics and Logs</a></li>
-						<li><a href="/" class="contrast">Organization Settings</a></li>
+						<li><a href="/docs/dashboard/overview" class="contrast">Overview</a></li>
+						<li><a href="/docs/dashboard/managing-apps" class="contrast">Managing Apps</a></li>
+						<li><a href="/docs/dashboard/managing-instances" class="contrast">Managing Instances</a></li>
+						<li><a href="/docs/dashboard/metrics-and-logs" class="contrast">Metrics and Logs</a></li>
+						<li><a href="/docs/dashboard/organization-settings" class="contrast">Organization Settings</a></li>
 					</ul>
 				</details>
 				<details>
 					<summary>Workflows</summary>
 					<ul>
-						<li><a href="/" class="contrast">Overview</a></li>
-						<li><a href="/" class="contrast">Developer Sandbox</a></li>
-						<li><a href="/" class="contrast">Preview Instances</a></li>
-						<li><a href="/" class="contrast">Stages</a></li>
-						<li><a href="/" class="contrast">Cloning Instances</a></li>
-						<li><a href="/" class="contrast">Promoting Stanges</a></li>
-						<li><a href="/" class="contrast">Automated Testing</a></li>
-						<li><a href="/" class="contrast">CI/CD</a></li>
+						<li><a href="/docs/workflows/overview" class="contrast">Overview</a></li>
+						<li><a href="/docs/workflows/developer-sandbox" class="contrast">Developer Sandbox</a></li>
+						<li><a href="/docs/workflows/preview-instances" class="contrast">Preview Instances</a></li>
+						<li><a href="/docs/workflows/stages" class="contrast">Stages</a></li>
+						<li><a href="/docs/workflows/cloning-instances" class="contrast">Cloning Instances</a></li>
+						<li><a href="/docs/workflows/promoting-stages" class="contrast">Promoting Stages</a></li>
+						<li><a href="/docs/workflows/automated-testing" class="contrast">Automated Testing</a></li>
+						<li><a href="/docs/workflows/ci-cd" class="contrast">CI/CD Integration</a></li>
 					</ul>
 				</details>
 				<details>
 					<summary>Domains + SSL (coming soon)</summary>
 					<ul>
-						<li><a href="/" class="contrast">Overview</a></li>
+						<li><a href="/docs/domains/overview" class="contrast">Overview</a></li>
 					</ul>
 				</details>
 				<details>
 					<summary>CLI Reference (coming soon)</summary>
 					<ul>
-						<li><a href="/" class="contrast">Overview</a></li>
+						<li><a href="/docs/cli/overview" class="contrast">Overview</a></li>
 					</ul>
 				</details>
 			</nav>

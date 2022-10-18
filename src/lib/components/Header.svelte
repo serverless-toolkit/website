@@ -11,7 +11,7 @@
 				<a
 					href="https://cloud.serverless-toolkit.com/auth/signin"
 					target="_blank"
-					rel="noopener noreferrer">login</a
+					rel="noopener noreferrer">sign in</a
 				>
 			</li>
 			<!-- <li>
