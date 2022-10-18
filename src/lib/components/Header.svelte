@@ -2,26 +2,20 @@
 	<nav class="sticky">
 		<ul>
 			<li>
-				<a href="/" class="contrast"><strong>STK</strong></a>
+				<a href="/" class="contrast"><strong>Serverless Dashboard</strong></a>
 			</li>
 		</ul>
 		<ul>
-			<li><a href="/docs">docs</a></li>
+			<li><a href="/docs">Docs</a></li>
+			<li><a href="/faq">FAQ</a></li>
+			<li><a href="/pricing">Pricing</a></li>
 			<li>
 				<a
 					href="https://cloud.serverless-toolkit.com/auth/signin"
 					target="_blank"
-					rel="noopener noreferrer">sign in</a
+					rel="noopener noreferrer">Sign in</a
 				>
-			</li>
-			<!-- <li>
-			<details role="list" dir="rtl">
-				<summary aria-haspopup="listbox" role="link" class="contrast" />
-				<ul role="listbox">
-					<li><a href="/contact">contact</a></li>
-				</ul>
-			</details>
-		</li> -->
+			</li>			
 		</ul>
 	</nav>
 </header>
@@ -34,5 +28,8 @@
 		background-color: rgba(0, 0, 0, 0.573);
 		position: sticky;
 		position: -webkit-sticky;
+	}
+	.sticky a {
+		color: white;
 	}
 </style>

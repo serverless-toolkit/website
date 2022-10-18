@@ -1,11 +1,11 @@
 <footer class="container">
 	<div class="grid">
-		<a href="/impressum">impressum</a>
+		<a href="/impressum">Imprint</a>
+		<a href="/contact">Contact</a>
+		<p>© 2021-2022 by Mike Bild</p>
 	</div>
 	<br />
-	<p>
-		© 2021-2022 by Mike Bild
-	</p>
+	
 </footer>
 
 <style>
